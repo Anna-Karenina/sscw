@@ -1,0 +1,21 @@
+.section_wrapper_brand{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7vh;
+}
+.section_wrapper_brand_text{
+  color:$themeBlue;
+  font-size: $i60i;
+  line-height: 109%;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+}
+.section_wrapper_city{
+  color:white
+}
+.section_wrapper_city p{
+  font-family: 'Open sans';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: $i20i;
+}

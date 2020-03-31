@@ -1,0 +1,19 @@
+.footer{
+  width: 100%;
+  height: 18vh;
+  position: relative;
+  top: calc(100vh - 98vh);
+  background-color: rgba(0,0,0, .5);
+}
+#footer_bluestripe{
+  height: 5vh;
+  background-color: $themeBlue; 
+}
+.footer_about{
+  color: white;
+}
+#footer_relisedate{
+  color: $themeBlue;
+  font-size: 6vw;
+  font-family: 'Bebas Neue', cursive;
+}
