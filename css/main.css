@@ -1,7 +1,6 @@
 @media (max-width: 575.98px) {
   .footer {
-    top: calc(100vh - 96vh) !important;
-    position: static; }
+    top: calc(100vh - 88vh) !important; }
   .section_wrapper_brand_text {
     font-size: 16vw !important; }
   .mobilerow {
