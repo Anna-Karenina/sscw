@@ -1,8 +1,7 @@
 .footer{
   width: 100%;
   height: 18vh;
-  position: relative;
-  top: calc(100vh - 98vh);
+  flex: 0 0 auto;
   background-color: rgba(0,0,0, .5);
 }
 #footer_bluestripe{
@@ -10,7 +9,8 @@
   background-color: $themeBlue; 
 }
 .footer_about{
-  color: white;
+  color: white !important ;
+  @include AboutFF
 }
 #footer_relisedate{
   color: $themeBlue;

@@ -1,0 +1,60 @@
+//colors
+
+$themeBlue: #2dc9f7;
+
+//sizes
+$i12i: 0.833vw;
+$i14i: 0.9722vw;
+$i16i: 1.111vw;
+$i20i: 1.4vw;
+$i60i: 9vw;
+
+
+@mixin button-reset {
+   padding: 0;
+   border: none;
+   font: inherit;
+   color: inherit;
+   background-color: #fff;
+   cursor: pointer;
+   outline: none;
+   margin: 0;
+}
+@mixin AboutFF {
+   width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(115, 121, 140);
+    font-weight: 400;
+    margin: 0px;
+}
+
+@media (max-width: 575.98px){ 
+   .footer{
+      top: calc(18vh - 100vh) ;
+      height: auto !important;
+   }
+   .section_wrapper_brand_text{
+      font-size: 16vw !important;
+   }
+   .mobilerow{
+      align-items: center;
+      flex-direction: row !important ;
+   }
+   .mobilerow img{
+      margin-bottom: 1vh;
+   }
+   .wrap{
+      background-position-x: right !important;
+   }
+   .section_wrapper_city p{
+      margin-left: 50%;
+      font-size: 4vw !important;
+   }
+   #footer_relisedate{
+      display: none;
+   }
+   //@media (max-width: 767.98px) {   }
+   //@media (max-width: 991.98px) { }
+}
