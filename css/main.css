@@ -7124,6 +7124,10 @@ body {
 .content {
   flex: 1 0 auto; }
 
+.section_image_container {
+  width: 5vw;
+  margin-top: 30px; }
+
 .footer {
   width: 100%;
   height: 18vh;
