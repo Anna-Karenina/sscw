@@ -7142,6 +7142,8 @@ body {
 .footer_about {
   color: white !important;
   cursor: default;
+  line-height: 30px !important;
+  font-size: 17px !important;
   width: 100%;
   font-size: 14px;
   line-height: 20px;
