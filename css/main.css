@@ -7110,12 +7110,14 @@ body {
   font-size: 9vw;
   line-height: 109%;
   text-transform: uppercase;
-  font-family: 'Bebas Neue', cursive; }
+  font-family: 'Bebas Neue', cursive;
+  cursor: default; }
 
 .section_wrapper_city {
   color: white; }
 
 .section_wrapper_city p {
+  cursor: default;
   font-family: 'Open sans';
   text-transform: uppercase;
   font-weight: bold;
@@ -7125,8 +7127,7 @@ body {
   flex: 1 0 auto; }
 
 .section_image_container {
-  width: 5vw;
-  margin-top: 30px; }
+  width: 5vw; }
 
 .footer {
   width: 100%;
@@ -7140,6 +7141,7 @@ body {
 
 .footer_about {
   color: white !important;
+  cursor: default;
   width: 100%;
   font-size: 14px;
   line-height: 20px;
@@ -7149,6 +7151,7 @@ body {
   margin: 0px; }
 
 #footer_relisedate {
+  cursor: default;
   color: #2dc9f7;
   font-size: 6vw;
   font-family: 'Bebas Neue', cursive; }
